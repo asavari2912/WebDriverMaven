@@ -26,7 +26,7 @@ public class LoginTest {
 		
 		driver.get("http://gmail.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("dudhe.asvari@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("abc.asvari@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();
 		
 	}
