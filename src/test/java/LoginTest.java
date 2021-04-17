@@ -18,6 +18,9 @@ public class LoginTest {
 		
 		WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
+		 
+		 
+		 
 	}
 	@Test
 	public void doLogin() {
