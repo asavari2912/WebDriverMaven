@@ -11,16 +11,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
 
-	
+	//
 	public static WebDriver driver;
 	@BeforeSuite
 	public void setup() {
 		
 		WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
-		 
-		 
-		 
+		 	 	 
 	}
 	@Test
 	public void doLogin() {
